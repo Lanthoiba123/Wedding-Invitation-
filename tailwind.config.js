@@ -6,6 +6,9 @@ export default {
       // backgroundImage: {
       //   bg: "url('/img/img.jpeg')",
       // },
+      fontFamily:{
+        satisfy:["Satisfy"]
+      }
     },
   },
   plugins: [],
