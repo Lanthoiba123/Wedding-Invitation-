@@ -1,0 +1,42 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes squeeze {
+  0% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.squeeze-in-out {
+  animation: squeeze 2.5s linear;
+}
