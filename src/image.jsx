@@ -46,17 +46,19 @@ function App() {
           }`}
           style={{ backgroundImage: "url('flower.png')" }}
         /> */}
-        <Link
-          to="/video"
-          className="gradiant absolute text-xl text-center text-white rounded-lg px-4  mt-[550px] "
-        >
-          Click here for sweet video
-        </Link>
-        <div
-          className="gradiant absolute text-xl text-center text-white rounded-lg px-6  bg-gray-600 mt-[600px] "
-          onClick={open}
-        >
-          Location
+        <div className="absolute bottom-10 flex flex-col items-center  gap-2">
+          <Link
+            to="/video"
+            className="gradiant  text-xl text-center text-white rounded-lg px-4  "
+          >
+            Click here for sweet video
+          </Link>
+          <div
+            className="gradiant w-fit  text-xl text-center text-white rounded-lg px-6  bg-gray-600  "
+            onClick={open}
+          >
+            Location
+          </div>
         </div>
         {/* <div className=" top-16  text-orange-600  absolute font-satisfy">
           <h1 className="text-xl font-thin">WEDDING INVITATION</h1> */}
