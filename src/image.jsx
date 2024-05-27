@@ -38,7 +38,7 @@ function App() {
       </Modal>
       <div
         className="relative h-screen bg-cover flex justify-center"
-        style={{ backgroundImage: "url('together_pic.jpg')" }}
+        style={{ backgroundImage: "url('Card.png')" }}
       >
         {/* <div
           className={`absolute inset-0 bg-cover ${
@@ -48,31 +48,31 @@ function App() {
         /> */}
         <Link
           to="/video"
-          className="gradiant absolute text-xl text-center text-white rounded-lg px-4  bg-gray-600 mt-[550px] "
+          className="gradiant absolute text-xl text-center text-white rounded-lg px-4  mt-[550px] "
         >
           Click here for sweet video
         </Link>
         <div
-          className="gradiant absolute text-xl text-center text-white rounded-lg px-6  bg-gray-600 mt-[600px]"
+          className="gradiant absolute text-xl text-center text-white rounded-lg px-6  bg-gray-600 mt-[600px] "
           onClick={open}
         >
           Location
         </div>
-        <div className=" top-16  text-orange-600  absolute font-satisfy">
-          <h1 className="text-xl font-thin">WEDDING INVITATION</h1>
-          {/* <p className="text-xl">14 June 2024</p> */}
-          {/* <p className="text-3xl">Venue</p> */}
-          {/* <p className="text-3xl">Patsoi Part-1 Awang Leikai</p> */}
-        </div>
-        <img className="size-40 mt-8" src="design.png" alt="" />
+        {/* <div className=" top-16  text-orange-600  absolute font-satisfy">
+          <h1 className="text-xl font-thin">WEDDING INVITATION</h1> */}
+        {/* <p className="text-xl">14 June 2024</p> */}
+        {/* <p className="text-3xl">Venue</p> */}
+        {/* <p className="text-3xl">Patsoi Part-1 Awang Leikai</p> */}
+        {/* </div> */}
+        {/* <img className="size-40 mt-8" src="design.png" alt="" /> */}
       </div>
-      <div className="absolute top-[410px] text-balance w-full text-teal-400 flex justify-center items-center flex-col font-serif ">
+      {/* <div className="absolute top-[410px] text-balance w-full text-teal-400 flex justify-center items-center flex-col font-serif ">
         <h1>Kangabam Aneet Mangang</h1>
         <h1>&</h1>
         <h1>Leichombam Mamata Devi</h1>
         <h1>on</h1>
         <h1 className="text-orange-600">FRIDAY | 14th JUNE 2024</h1>
-      </div>
+      </div> */}
     </div>
   );
 }
