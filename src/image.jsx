@@ -40,12 +40,12 @@ function App() {
         className="relative h-screen bg-cover flex justify-center"
         style={{ backgroundImage: "url('Card.png')" }}
       >
-        {/* <div
+        <div
           className={`absolute inset-0 bg-cover ${
             showFlower ? "squeeze-in-out" : ""
           }`}
           style={{ backgroundImage: "url('flower.png')" }}
-        /> */}
+        />
         <div className="absolute bottom-10 flex flex-col items-center  gap-2">
           <Link
             to="/video"
