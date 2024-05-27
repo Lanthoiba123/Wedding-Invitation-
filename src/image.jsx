@@ -48,12 +48,12 @@ function App() {
         /> */}
         <Link
           to="/video"
-          className="gradiant absolute text-xl text-center text-white rounded-lg px-2  bg-gray-600 mt-[550px] ring-4 ring-teal-400"
+          className="gradiant absolute text-xl text-center text-white rounded-lg px-4  bg-gray-600 mt-[550px] "
         >
           Click here for sweet video
         </Link>
         <div
-          className="absolute text-2xl text-center text-white rounded-lg px-2  bg-gray-600 mt-[600px]"
+          className="gradiant absolute text-xl text-center text-white rounded-lg px-6  bg-gray-600 mt-[600px]"
           onClick={open}
         >
           Location
