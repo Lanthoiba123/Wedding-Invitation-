@@ -1,16 +1,30 @@
 import React, { useEffect, useRef } from "react";
+
 const Video = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
+      const handlePlay = () => {
+        video.muted = false; // Unmute the video when it starts playing
+      };
+
       video.muted = true; // Mute the video to ensure autoplay works
       video.play().catch((error) => {
         console.error("Error attempting to play the video:", error);
       });
+
+      // Add event listener for the play event
+      video.addEventListener("play", handlePlay);
+
+      // Cleanup the event listener on component unmount
+      return () => {
+        video.removeEventListener("play", handlePlay);
+      };
     }
   }, []);
+
   return (
     <div>
       <h1 className="text-center font-bold text-yellow-500 font-serif pt-4">
@@ -19,10 +33,10 @@ const Video = () => {
       </h1>
       <div className="aspect-video h-[500px] w-full flex justify-center mt-6">
         <video ref={videoRef} controls autoPlay muted>
-          <source src="checkVideo.mp4" type="video/mp4" />
+          <source src="sweetVideo.mp4" type="video/mp4" />
         </video>
       </div>
-      <h1>Thank You For Watching Our Sweet Memories Video</h1>
+      <h1 className="p-3">Thank You For Watching Our Sweet Memories Video</h1>
     </div>
   );
 };

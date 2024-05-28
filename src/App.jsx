@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Confetti from "react-confetti";
 import Image from "./image";
-import Video from "./video";
 
 function App() {
   const [numberOfPieces, setNumberOfPieces] = useState(600);
@@ -30,7 +29,6 @@ function App() {
         tweenDuration={2000}
       />
       <Image />
-      {/* <Video /> */}
     </>
   );
 }
