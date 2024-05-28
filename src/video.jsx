@@ -31,12 +31,14 @@ const Video = () => {
         This is our delightful journey through our cherished moments and
         memories
       </h1>
-      <div className="aspect-video h-[500px] w-full flex justify-center mt-6">
+      <div className="aspect-video h-[550px] w-full flex justify-center mt-4">
         <video ref={videoRef} controls autoPlay muted>
-          <source src="sweetVideo.mp4" type="video/mp4" />
+          <source src="memoryVideo.mp4" type="video/mp4" />
         </video>
       </div>
-      <h1 className="p-3">Thank You For Watching Our Sweet Memories Video</h1>
+      <div className="w-full p-1 flex justify-center">
+        <h1 className="p-3">Thank You For Watching Our Sweet Memories Video</h1>
+      </div>
     </div>
   );
 };
