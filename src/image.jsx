@@ -22,14 +22,14 @@ function App() {
         <div className="flex flex-col">
           <a
             className="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            href="https://maps.app.goo.gl/wRrcdM1cJJUDS5eG7"
+            href="https://maps.app.goo.gl/FA9SgvxWdn3UU3jRA"
             target="_blank"
           >
             Bor Location
           </a>
           <a
             className="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            href="https://maps.app.goo.gl/wRrcdM1cJJUDS5eG7"
+            href="https://maps.app.goo.gl/5N3qgoyKrRVVVaj2A"
             target="_blank"
           >
             Keina Location
